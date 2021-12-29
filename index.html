@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UCLA CS269: Deep Generative Models</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<div id="header">
+  <a href="http://ucla.edu/">
+    <img src="assets/uclalogo.png" style="height:50px; float: right; margin-right: 20px;">
+  </a>
+  <h1><a href="https://grover-group.github.io/dgm-win22" style="color: black">Deep Generative Models</a></h1>
+  <div class='text-center'>
+    <h4>CS269 - Winter 2022</h4>
+  </div>
+  <hr/>
+</div>
+
+<!-- <div class="container sec">
+  <figure>
+    <img src="img/teaser.svg" width="50%">
+    <figcaption style="color: #a2a2a2">These are fake faces <a href="https://thispersondoesnotexist.com/">generated</a> by a GAN.</figcaption>
+  </figure>
+</div>
+<hr/> -->
+<div class="container sec">
+  <h2>Course Description</h2>
+  <div id="coursedesc">
+    Generative models are widely used in many subfields of AI and Machine Learning. Recent advances in parameterizing these models using deep neural networks, combined with progress in stochastic optimization methods, have enabled scalable modeling of complex, high-dimensional data including images, text, and speech. In this course, we will study the probabilistic foundations and learning algorithms for deep generative models, including variational autoencoders, generative adversarial networks, autoregressive models, normalizing flow models, and energy-based models. The course will also discuss application areas that have benefitted from deep generative models, including computer vision, speech and natural language processing, and reinforcement learning.
+  </div>
+
+
+  <h3> Note 1</h3> 
+
+  Zoom link for the first week of classes (starting Jan 4) will be posted here by Jan 3rd.
+
+  <h3> Note 2</h3> 
+
+  This is an advanced graduate class exploring cutting-edge topics in probabilistic machine learning. The course project is expected to be of high quality, requiring effort at the level of a publishable work at a top-tier venue. Enrollments are limited; please fill the survey form <a href="https://forms.gle/UaimW5vyhoU5QBJM6">here</a> to request a PTE. Request for PTEs will be accepted until Jan 6th. 
+
+</div>
+<div style="text-align:center; padding:10px 0px 20px 0px;">
+    <a href="https://deepgenerativemodels.github.io/notes/index.html" style="margin-right:50px">
+      <button type="button" class="btn btn-primary btn-lg">Course Notes</button>
+    </a>
+      <a href="syllabus.html" style="margin-right:50px">
+      <button type="button" class="btn btn-danger btn-lg">Syllabus</button>
+    </a>
+  </a>
+    <a href="https://calendar.google.com/calendar/embed?src=tgppkmpdnimblr5qf6iusu6d9c%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="margin-right:50px">
+      <button type="button" class="btn btn-success btn-lg">Office Hours</button>
+    </a>
+</div>
+<hr/>
+<div class="container sec">
+<div class="row">
+  <div class="col-md-4">
+    <h2>Course Instructor</h2>
+    <br>
+    <div class="instructor">
+      <a href="https://aditya-grover.github.io">
+      <div class="instructorphoto"><img src="assets/aditya.png"></div>
+      <div>Aditya Grover</div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr/>
+
+<div class="container sec">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Time & Location</h2>
+      <span class="spanh">Winter Quarter</span>: Jan - Mar, 2022<br>
+      <span class="spanh">Lecture</span>: Tuesday, Thursday 10:00 AM - 11:50 PM<br>
+      <span class="spanh">Location</span>: Online (for first few weeks)
+      Office Hours: Wednesday, 1-2 PM, Online.
+    </div>
+    <div class="col-md-4">
+      <h2>Grade Breakdown</h2>
+        <ul>
+          <li><span class="spanh">3 Quizzes:</span> 5% each</li>
+          <li><span class="spanh">Midterm:</span> 15%</li>
+          <li><span class="spanh">Class Participation:</span> 5%</li>
+          <li><span class="spanh">Course Project:</span> 65%</li>
+            <ul>
+              <li><span class="spanh">Proposal + Literature Review:</span>10%</li>
+              <li><span class="spanh">Progress Presentation + Report:</span> 15%</li>
+              <li><span class="spanh">Final Presentation + Paper:</span> 30%</li>
+              <li><span class="spanh">Peer Feedback:</span> 10%</li>
+            </ul>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container sec">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Course Discussions</h2>
+        We use <a href="">Canvas/Bruin Learn</a> for course communication.
+        <br>
+      </div>
+      <div class="col-md-4">
+        <h2>Course Project Details</h2>
+        Coming soon!
+      </div>
+    </div>
+  </div>
+  <hr/>
+<div class="container sec">
+  <h2>FAQ</h2>
+  <div class="qqa">
+    <div class="qq">What are the pre-requisites?</div>
+      <ul>
+        <li><div class "qa">Basic knowledge about machine learning and deep learning.</div></li>
+        <li><div class "qa">Basic knowledge of probabilities and calculus: students will work with computational and mathematical models.</div></li>
+        <li><div class "qa">Proficiency in Pytorch or Tensorflow.</div></li>
+      </ul>
+  </div>
+  <div class="qqa">
+    <div class="qq">Can I audit or sit in?</div>
+    <div class="qa">We expect the class to involve close participation and collaboration amongst the students. As such, we are not offering the audit option for this iteration of the course.</div>
+  </div>
+  <div class="qqa">
+    <div class="qq">Is there a textbook for this course?</div>
+    <div class="qa">We offer our own self-contained <a href="https://deepgenerativemodels.github.io/notes/index.html">notes</a> for this course. While there is no required textbook, we recommend "Deep Learning" by Ian Goodfellow, Yoshua Bengio, Aaron Courville. The online version available for free <a href="https://www.deeplearningbook.org/">here</a>.</div>
+  </div>
+</div>
+<hr/>
+<div class="container sec">
+<h2>Health and Safety Expectation (COVID-19 protocols)</h2>
+  <div id="covidwarning">
+    Following UCLA’s policies, everyone is required to wear a mask indoors, regardless of vaccination status. This includes any in-person lectures or office hour sessions. Some community members may have preferences that go beyond the requirements; it is important that we treat each others' preferences with respect and care. You can find the most current policies on campus protocols on the <a href="https://covid-19.ucla.edu/ucla-covid-protocols/">UCLA COVID-19 site</a>.
+  </div>
+  <h2> Lecture Attendance </h2>
+  <div id="attendance">
+    While we do not require in-person lecture attendance, students are encouraged to join the live lecture. To accommodate various circumstances, lecture recordings will also be available on Canvas shortly following the lecture.
+  </div>
+  <h2>UCLA Honor Code</h2>
+  <div id="honorcodedesc">
+    Students are free to form study groups and may discuss homework in groups. However, each student must write down the solutions and code from scratch independently, and without referring to any written notes from the joint session. In other words, each student must understand the solution well enough in order to reconstruct it by him/herself. It is an honor code violation to copy, refer to, or look at written or code solutions from a previous year, including but not limited to: official solutions from a previous year, solutions posted online, and solutions you or someone else may have written up in a previous year. Furthermore, it is an honor code violation to post your assignment solutions online, such as on a public git repo. <br>
+    <br>
+    The UCLA Honor Code can be found <a href="https://deanofstudents.ucla.edu/student-conduct-code"> here </a> <br>
+  </div>
+</div>
+
+<hr/>
+<div class="container sec">
+  <strong>Acknowledgments.</strong> HTML taken from <a href="http://cs231n.stanford.edu/">cs231n</a>. This course was originally created by Aditya Grover and Stefano Ermon at Stanford.
+</div>
+
+<!-- jQuery and Boostrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
